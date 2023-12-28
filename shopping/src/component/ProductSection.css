@@ -1,0 +1,21 @@
+.product {
+  position: relative;
+
+  .view-product-btn {
+    background-color: pink;
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    bottom: -10px;
+    border-width: 5px;
+  }
+
+  &:hover .view-product-btn {
+    display: inline-block;
+  }
+}
+.wishlist {
+  padding-left: 230px;
+  margin-top: -26px;
+}

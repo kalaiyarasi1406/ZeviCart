@@ -1,0 +1,41 @@
+.home {
+  margin-top: 50px;
+}
+.filterPage {
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid rgb(217, 219, 222);
+  border-radius: 20px;
+}
+
+.searchPage {
+  margin: 10px;
+  padding: 20px;
+}
+
+.productPage {
+  margin: 30px;
+}
+
+.filterDialogContent {
+  width: 20rem;
+  border: 1px solid #f0ca43;
+  border-radius: 20px;
+}
+.customcontent {
+  max-height: 150vh !important;
+  overflow-y: auto;
+}
+
+.custom-dialog-content::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+.custom-dialog-content::-webkit-scrollbar-thumb {
+  background-color: #f0ca43;
+}
+@media screen and (max-width: 900px) {
+  .filter {
+    display: none !important;
+  }
+}
